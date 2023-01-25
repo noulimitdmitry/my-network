@@ -1,0 +1,30 @@
+@import "./css/null";
+@import "./css/Header";
+@import "./css/Nav";
+@import "./css/Main";
+@import "./css/Footer";
+
+.app-wrapper {
+}
+.app__container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 
+  "header header"
+  "nav main"
+  "footer footer";
+  grid-template-columns: 1fr 5fr;
+}
+.app__header{
+  grid-area: header;
+}
+.app__nav{
+  grid-area: nav;
+}
+.app__main{
+  grid-area: main;
+}
+.app__footer{
+  grid-area: footer;
+}

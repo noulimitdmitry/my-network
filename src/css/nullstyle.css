@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+
+$wrapperColor : rgb(187, 220, 235);
+$containerWidth : 1230px;
+
+
+
+*, *::before, *::after{
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  color: inherit;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body, html{
+  height: 100%;
+}
+
+body{
+  line-height: 1;
+  font-family: Poppins; //найчастіший шрифт
+  color: #ffffff; //те чого найбільше
+}
+.wrapper{
+  height: 100%;
+}
+.container{
+  max-width: $containerWidth;
+  margin: 0 auto;
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  //background: url(/img/gitara.jpg) right top/ 48% auto no-repeat fixed;
+}
+
+[class*="__container"]{
+// max-width: $containerWidth;
+// margin: 0 auto;
+// padding: 0 30px;
+}
+
+main{
+flex: 1 0 auto;
+}
+
