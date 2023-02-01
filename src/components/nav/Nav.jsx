@@ -1,15 +1,15 @@
 import s from "./Nav.module.css"
-import hs from "../Wrapper.module.css"
+import Link from "./Links/Link.jsx"
 
 const Nav = () => {
   return (
-    <nav className={`${hs.nav} ${s.nav}`}>
+    <nav className={s.nav}>
       <ul className={s.list}>
-        <li className={s.item}><a className={s.link} href="#1">Profile</a></li>
-        <li className={s.item}><a className={s.link} href="#2">Messages</a></li>
-        <li className={s.item}><a className={s.link} href="#3">News</a></li>
-        <li className={s.item}><a className={s.link} href="#4">Contacts</a></li>
-        <li className={s.item}><a className={s.link} href="#5">Settings</a></li>
+        <Link name="Profile" status="active" />
+        <Link name="Messages" />
+        <Link name="News" />
+        <Link name="Contacts" />
+        <Link name="Settings" />
       </ul>
     </nav>
   )

@@ -1,9 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from "./components/header/Header"
-import Nav from "./components/nav/Nav"
-import Main from "./components/main/Main"
-import Footer from "./components/footer/Footer"
+import Header from "./components/Header/Header"
+import Nav from "./components/Nav/Nav"
+import Main from "./components/Main/Main"
 
 const App = () => {
   return (
@@ -12,7 +11,6 @@ const App = () => {
         <Header />
         <Nav />
         <Main />
-        <Footer />
       </div>
     </div>
   );

@@ -1,7 +1,9 @@
 .header{
-  background-color: bisque;
+  grid-area: header;
+  background-color: rgb(6, 11, 163);
 }
 
-.logo{
+.header img{
   height: 50px;
 }
+

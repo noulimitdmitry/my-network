@@ -1,67 +1,6 @@
 .main{
+  grid-area: main;
   background-color: cornflowerblue;
 }
-.img{
-  width: 100%;
-  height: 200px;
-  }
-.main__person{
-}
-.main__my-posts{
-}
-.main__comments{
-}
-
-
-.person{
-  display:flex
-}
-.person__avatar{
-  height: 300px;
-}
-.person__information{}
-
-
-.personal-information{}
-.personal-information__name{}
-.personal-information__list{}
-.personal-information__item{}
-
-.personal-information__item_date-of-birth{}
-.personal-information__item_city{}
-.personal-information__item_education{}
-.personal-information__item_web-site{}
-
-
-.personal-information__span{}
-
-.personal-information__span_date-of-birth{}
-.personal-information__span_city{}
-.personal-information__span_education{}
-.personal-information__span_web-site{}
-
-
-.personal-information__span_date-of-birth-value{}
-.personal-information__span_city-value{}
-.personal-information__span_education-value{}
-.personal-information__span_web-site-value{}
-
-
-
-.my-posts{}
-.my-posts__title{}
-.my-posts__input{}
-.my-posts__button{}
-
-.my-posts-title{}
-
-
-.comments{
-  display: flex;
-}
-.comments__icon{
-  height: 30px;
-}
-.comments__text{}
 
 

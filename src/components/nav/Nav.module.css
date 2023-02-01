@@ -1,3 +1,5 @@
 .nav{
-  background-color: aquamarine;
+  background-color: rgb(169, 211, 233);
+  grid-area: nav;
+  padding: 30px 0 0 0;
 }

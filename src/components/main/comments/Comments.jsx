@@ -1,10 +1,14 @@
-const Comments = () => {
+import s from "./Comments.module.css"
+import Comment from "./Comment/Comment"
+const Comments = (props) => {
   return (
-    <div className='main__comments comments'>
-      <img className='comments__icon' src='https://cdn-icons-png.flaticon.com/512/1789/1789313.png'></img>
-      <div className='comments__text'>Hi, why am I blue</div>
+    <div className={s.comments}>
+      <Comment message="Why i am blue" />
+      <Comment message="Why i am red" />
+      <Comment message="Why i am yellow" />
+      <Comment message="Why i am black" />
+      <Comment message="Why i am white" />
     </div>
   )
 }
 export default Comments;
-
