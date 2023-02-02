@@ -10,6 +10,3 @@ const DateOfBirth = (props) => {
 }
 
 export default DateOfBirth;
-
-{/* <span className={s.text}>Date of-Birth:</span>
-<span className={s.date}>2 january</span> */}
