@@ -1,0 +1,9 @@
+.information{
+  display: inline-block;
+  color:rgb(100, 214, 255);
+  margin-left: 2rem;
+  padding: 1rem 2rem 2rem 2rem;
+  letter-spacing: 1px;
+  background-color: #4e6470;
+  height: 100%;
+}

@@ -1,9 +1,40 @@
 .header{
   grid-area: header;
-  background-color: rgb(6, 11, 163);
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  height: 5rem;
+}
+@media (max-width:767px) {
+  .header{
+    height: 4rem;
+  }
 }
 
-.header img{
-  height: 50px;
+.bg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-image: url('/src/img/images.jpeg');
+  background-size: cover;
+  transform: rotate(180deg);
 }
+
+.logo{
+  position: absolute;
+  z-index: 2;
+  display: inline-block;
+  height: 4rem;
+}
+
+@media (max-width:767px) {
+  .logo{
+    height: 3rem;
+  }
+}
+
 

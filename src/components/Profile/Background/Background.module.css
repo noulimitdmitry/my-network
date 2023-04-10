@@ -1,0 +1,21 @@
+.block{
+position: absolute;
+width: 100%;
+}
+.text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-43%, -50%);
+  color: rgb(199, 169, 0);
+  letter-spacing: 12rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.img{
+  display: block;
+  width: 100%;
+  height: 6rem;
+  margin-left: -2rem;
+  }

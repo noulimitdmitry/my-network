@@ -1,0 +1,8 @@
+.dialogs{
+  display:grid;
+  grid-template-columns: 1.5fr 10fr;
+  background-color: #5c7683;
+  border-left: 2px solid #4b585e;
+}
+
+

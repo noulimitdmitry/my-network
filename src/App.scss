@@ -1,0 +1,35 @@
+html, body, #root{
+  height: 100%;
+}
+
+.app-wrapper {
+  min-height: 100%;
+  background:#CEE5F2;
+  padding: 0 40px;
+  @media (max-width:767px) {
+    padding: 0 25px;
+  }
+}
+.app__container{
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 
+  "header header"
+  "nav content";
+  grid-template-columns: 1fr 6fr;
+}
+
+.app__content{
+  grid-area: content;
+  background-color: #536B78;
+}
+
+.active{
+  color:red;
+}
+
+
+
+
+// colors: #CEE5F2,#ACCBE1,#7C98B3,#637081,#536B78
